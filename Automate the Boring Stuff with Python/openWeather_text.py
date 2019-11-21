@@ -69,7 +69,7 @@ def send_text(text_message):
 	smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
 	smtpObj.ehlo()
 	smtpObj.starttls()
-	smtpObj.login('xxxxxxxxxxxxxx@gmail.com', 'xxxxxxxxxxxxxxx')
+	smtpObj.login('m.brandon.barnes@gmail.com', 'xxxxxxxxxxxxxxx')
 	smtpObj.sendmail('weather-bot', '8885555555@txt.att.net', msg)
 	smtpObj.quit()
 	

@@ -18,7 +18,7 @@ for r in range(2, sheet.max_row +1):
 smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
 smtpObj.ehlo()
 smtpObj.starttls()
-smtpObj.login('xxxxxxxxxxxx@gmail.com', 'xxxxxxxxxxxxxx')
+smtpObj.login('m.brandon.barnes@gmail.com', 'xxxxxxxxxxxxxx')
 
 for name, email in unpaidMembers.items():
 	body = 'Subject: %s dues unpaid.\nDear %s,\nRecords show that you have not paid dues for %s. Pay up chump. Thanks!' % (latestMonth, name, latestMonth)
